@@ -1,2 +1,2 @@
 # immutable-console
-Human readable printing of Immutable.js data structures
+Debugging utility for human readable printing of Immutable.js data structures.

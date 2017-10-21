@@ -1,0 +1,36 @@
+{
+  "name": "immutable-console",
+  "version": "0.0.2",
+  "description": "Debugging utility for human readable printing of Immutable.js data structures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register spec/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viacheslav-karnaukh/immutable-console.git"
+  },
+  "keywords": [
+    "immutable.js",
+    "immutable",
+    "logging",
+    "console",
+    "immutable-console",
+    "debug"
+  ],
+  "author": "Viacheslav Karnaukh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viacheslav-karnaukh/immutable-console/issues"
+  },
+  "homepage": "https://github.com/viacheslav-karnaukh/immutable-console#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "chai": "^4.1.2",
+    "immutable": "^3.8.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.0.1"
+  }
+}
