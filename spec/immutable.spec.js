@@ -12,7 +12,7 @@ import {
     Record,
     Seq
 } from 'immutable';
-import immutableConsole from '../index';
+import immutableConsole from '../src';
 
 
 export default function() {

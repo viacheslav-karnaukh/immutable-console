@@ -2,9 +2,12 @@
   "name": "immutable-console",
   "version": "0.0.2",
   "description": "Debugging utility for human readable printing of Immutable.js data structures.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "mocha --require babel-register spec/*.spec.js"
+    "test": "mocha --require babel-register spec/*.spec.js",
+    "clean": "rimraf dist",
+    "build": "npm run clean && mkdir dist && npx babel src/index.js -o dist/index.js",
+    "prepublishOnly": "npm run clean && npm test && npm run build"
   },
   "repository": {
     "type": "git",
@@ -26,11 +29,12 @@
   "homepage": "https://github.com/viacheslav-karnaukh/immutable-console#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
     "immutable": "^3.8.2",
     "mocha": "^4.0.1",
+    "rimraf": "^2.6.2",
     "sinon": "^4.0.1"
   }
 }

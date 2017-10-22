@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import immutableConsole from '../index';
+import immutableConsole from '../src';
 
 
 export default function() {
