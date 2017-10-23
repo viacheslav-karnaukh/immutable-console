@@ -1,6 +1,7 @@
 # Logger for Immutable.js
 [![build status](https://img.shields.io/travis/viacheslav-karnaukh/immutable-console/master.svg?style=flat-square)](https://travis-ci.org/viacheslav-karnaukh/immutable-console)
 [![npm version](https://img.shields.io/npm/v/immutable-console.svg?style=flat-square)](https://www.npmjs.com/package/immutable-console)
+[![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg?style=flat-square)](https://github.com/viacheslav-karnaukh/immutable-console/blob/master/LICENSE)
 
 Debugging utility for human readable printing of Immutable.js data structures.
 
